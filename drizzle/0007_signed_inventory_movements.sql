@@ -1,0 +1,2 @@
+ALTER TABLE "inventory_movements" DROP CONSTRAINT "inventory_movements_quantity_positive";--> statement-breakpoint
+ALTER TABLE "inventory_movements" ADD CONSTRAINT "inventory_movements_quantity_nonzero" CHECK ("quantity" <> 0);

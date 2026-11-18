@@ -1,0 +1,2 @@
+ALTER TABLE "orders" ADD COLUMN "reservation_expires_at" timestamptz;
+CREATE INDEX "orders_pending_reservation_expiry_idx" ON "orders" ("reservation_expires_at") WHERE "status" = 'pending' AND "payment_status" = 'pending';

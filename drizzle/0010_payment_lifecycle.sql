@@ -1,0 +1,10 @@
+ALTER TYPE "payment_status" ADD VALUE IF NOT EXISTS 'requires_action';
+ALTER TYPE "payment_status" ADD VALUE IF NOT EXISTS 'processing';
+ALTER TYPE "payment_status" ADD VALUE IF NOT EXISTS 'cancelled';
+ALTER TABLE "payments" ADD COLUMN "idempotency_key" varchar(200);
+ALTER TABLE "payments" ADD COLUMN "paid_at" timestamptz;
+CREATE UNIQUE INDEX "payments_idempotency_key_unique" ON "payments" ("idempotency_key");
+ALTER TABLE "payment_events" ADD COLUMN "signature_verified" boolean DEFAULT false NOT NULL;
+ALTER TABLE "refunds" ADD COLUMN "failure_reason" text;
+ALTER TABLE "refunds" ADD COLUMN "idempotency_key" varchar(200);
+CREATE UNIQUE INDEX "refunds_idempotency_key_unique" ON "refunds" ("idempotency_key");

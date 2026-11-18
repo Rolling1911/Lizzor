@@ -1,0 +1,1 @@
+ALTER TABLE "notification_deliveries" ADD COLUMN IF NOT EXISTS "encrypted_secret" text;

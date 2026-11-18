@@ -1,0 +1,685 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1788015287427,
+      "tag": "0000_narrow_sentinel",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788015444194,
+      "tag": "0001_lowly_meltdown",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788018364258,
+      "tag": "0002_shiny_morgan_stark",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788021000000,
+      "tag": "0003_granular_admin_permissions",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788021200000,
+      "tag": "0004_dashboard_permission",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1788021300000,
+      "tag": "0005_catalog_permissions",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1788024000000,
+      "tag": "0006_inventory_pricing_permissions",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1788025100000,
+      "tag": "0007_signed_inventory_movements",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1788025800000,
+      "tag": "0008_checkout_reservations",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1788025900000,
+      "tag": "0009_reservation_expiration",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1788026000000,
+      "tag": "0010_payment_lifecycle",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1788033000000,
+      "tag": "0011_payment_recovery",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1788033600000,
+      "tag": "0012_fulfillment_operations",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1788034800000,
+      "tag": "0013_fulfillment_integrity",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1788034900000,
+      "tag": "0011_payment_recovery_jobs",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1788035000000,
+      "tag": "0012_payment_recovery_leases",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1788035100000,
+      "tag": "0013_payment_recovery_review",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1788035200000,
+      "tag": "0014_refund_recovery_concurrency",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1788040000000,
+      "tag": "0015_promotions_engine",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1788043200000,
+      "tag": "0016_promotion_guest_usage",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1788045400000,
+      "tag": "0017_analytics_permissions",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1788047000000,
+      "tag": "0018_customer_accounts_b2b",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1788047100000,
+      "tag": "0019_guest_order_claim_link",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1788047200000,
+      "tag": "0020_transactional_notifications",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1788047300000,
+      "tag": "0021_notification_secret_encryption",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1788047400000,
+      "tag": "0022_notification_recipient_idempotency",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1788047500000,
+      "tag": "0023_notification_management_permission",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1788047600000,
+      "tag": "0024_production_operations",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1788047700000,
+      "tag": "0025_seo_foundation",
+      "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "7",
+      "when": 1788047800000,
+      "tag": "0028_commerce_integrity",
+      "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "7",
+      "when": 1788047800000,
+      "tag": "0029_admin_two_factor_challenges",
+      "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1788047900000,
+      "tag": "0030_sitemap_supporting_indexes",
+      "breakpoints": true
+    },
+    {
+      "idx": 32,
+      "version": "7",
+      "when": 1788048000000,
+      "tag": "0031_checkout_cart_fingerprint",
+      "breakpoints": true
+    },
+    {
+      "idx": 33,
+      "version": "7",
+      "when": 1788048100000,
+      "tag": "0032_storefront_banner_management",
+      "breakpoints": true
+    },
+    {
+      "idx": 34,
+      "version": "7",
+      "when": 1788048200000,
+      "tag": "0033_storefront_banner_published_snapshot",
+      "breakpoints": true
+    },
+    {
+      "idx": 35,
+      "version": "7",
+      "when": 1788048300000,
+      "tag": "0034_admin_operational_workspaces",
+      "breakpoints": true
+    },
+    {
+      "idx": 36,
+      "version": "7",
+      "when": 1788048400000,
+      "tag": "0035_staff_rbac_administration",
+      "breakpoints": true
+    },
+    {
+      "idx": 37,
+      "version": "7",
+      "when": 1788048500000,
+      "tag": "0036_protected_admin_roles",
+      "breakpoints": true
+    },
+    {
+      "idx": 38,
+      "version": "7",
+      "when": 1788048600000,
+      "tag": "0037_customer_care_workspaces",
+      "breakpoints": true
+    },
+    {
+      "idx": 39,
+      "version": "7",
+      "when": 1788048700000,
+      "tag": "0038_customer_care_identity_receipts",
+      "breakpoints": true
+    },
+    {
+      "idx": 40,
+      "version": "7",
+      "when": 1788286500000,
+      "tag": "0039_content_settings_control",
+      "breakpoints": true
+    },
+    {
+      "idx": 41,
+      "version": "7",
+      "when": 1788286600000,
+      "tag": "0040_media_cleanup_jobs",
+      "breakpoints": true
+    },
+    {
+      "idx": 42,
+      "version": "7",
+      "when": 1788389000000,
+      "tag": "0041_registration_country",
+      "breakpoints": true
+    },
+    {
+      "idx": 43,
+      "version": "7",
+      "when": 1788405112000,
+      "tag": "0042_optional_business_vat",
+      "breakpoints": true
+    },
+    {
+      "idx": 44,
+      "version": "7",
+      "when": 1788407001000,
+      "tag": "0043_homepage_app_banner_artwork",
+      "breakpoints": true
+    },
+    {
+      "idx": 45,
+      "version": "7",
+      "when": 1788411000000,
+      "tag": "0044_restore_category_media_references",
+      "breakpoints": true
+    },
+    {
+      "idx": 46,
+      "version": "7",
+      "when": 1788549000000,
+      "tag": "0045_resend_delivery_history",
+      "breakpoints": true
+    },
+    {
+      "idx": 47,
+      "version": "7",
+      "when": 1788552800000,
+      "tag": "0046_guest_order_email_access",
+      "breakpoints": true
+    },
+    {
+      "idx": 48,
+      "version": "7",
+      "when": 1788554000000,
+      "tag": "0047_resend_webhook_handling",
+      "breakpoints": true
+    },
+    {
+      "idx": 49,
+      "version": "7",
+      "when": 1788572062356,
+      "tag": "0048_legal_foundation",
+      "breakpoints": true
+    },
+    {
+      "idx": 50,
+      "version": "7",
+      "when": 1788573062356,
+      "tag": "0049_legal_publication_safety",
+      "breakpoints": true
+    },
+    {
+      "idx": 51,
+      "version": "7",
+      "when": 1788602021943,
+      "tag": "0050_eu_legal_readiness",
+      "breakpoints": true
+    },
+    {
+      "idx": 52,
+      "version": "7",
+      "when": 1788603021943,
+      "tag": "0051_lawyer_review_legal_drafts",
+      "breakpoints": true
+    },
+    {
+      "idx": 53,
+      "version": "7",
+      "when": 1788606251820,
+      "tag": "0052_backfill_legal_admin_permissions",
+      "breakpoints": true
+    },
+    {
+      "idx": 54,
+      "version": "7",
+      "when": 1788606351820,
+      "tag": "0053_homepage_wholesale_products",
+      "breakpoints": true
+    },
+    {
+      "idx": 55,
+      "version": "7",
+      "when": 1788606451820,
+      "tag": "0054_homepage_merchandising_indexes",
+      "breakpoints": true
+    },
+    {
+      "idx": 56,
+      "version": "7",
+      "when": 1788721198071,
+      "tag": "0055_product_permanent_delete_permission",
+      "breakpoints": true
+    },
+    {
+      "idx": 57,
+      "version": "7",
+      "when": 1788721298071,
+      "tag": "0056_company_invitation_resends",
+      "breakpoints": true
+    },
+    {
+      "idx": 58,
+      "version": "7",
+      "when": 1788724898266,
+      "tag": "0057_inventory_lifecycle",
+      "breakpoints": true
+    },
+    {
+      "idx": 59,
+      "version": "7",
+      "when": 1789062606040,
+      "tag": "0059_plain_zemo",
+      "breakpoints": true
+    },
+    {
+      "idx": 60,
+      "version": "7",
+      "when": 1789067712923,
+      "tag": "0060_staff_assignable_roles",
+      "breakpoints": true
+    },
+    {
+      "idx": 61,
+      "version": "7",
+      "when": 1789068800000,
+      "tag": "0061_content_pages_cms_hardening",
+      "breakpoints": true
+    },
+    {
+      "idx": 62,
+      "version": "7",
+      "when": 1789069700000,
+      "tag": "0062_content_preview_receipts",
+      "breakpoints": true
+    },
+    {
+      "idx": 63,
+      "version": "7",
+      "when": 1789070700000,
+      "tag": "0063_category_taxonomy_supplier_mappings",
+      "breakpoints": true
+    },
+    {
+      "idx": 64,
+      "version": "7",
+      "when": 1789071700000,
+      "tag": "0064_category_mapping_integrity_hardening",
+      "breakpoints": true
+    },
+    {
+      "idx": 65,
+      "version": "7",
+      "when": 1789072700000,
+      "tag": "0065_category_mapping_concurrency_hardening",
+      "breakpoints": true
+    },
+    {
+      "idx": 66,
+      "version": "7",
+      "when": 1789073700000,
+      "tag": "0066_toonies_supplier_integration",
+      "breakpoints": true
+    },
+    {
+      "idx": 67,
+      "version": "7",
+      "when": 1789074700000,
+      "tag": "0067_fx_normalization",
+      "breakpoints": true
+    },
+    {
+      "idx": 68,
+      "version": "7",
+      "when": 1789075700000,
+      "tag": "0068_fx_snapshot_immutability",
+      "breakpoints": true
+    },
+    {
+      "idx": 69,
+      "version": "7",
+      "when": 1789076700000,
+      "tag": "0069_catalogue_readiness_foundation",
+      "breakpoints": true
+    },
+    {
+      "idx": 70,
+      "version": "7",
+      "when": 1789077700000,
+      "tag": "0070_toonies_resumable_sync",
+      "breakpoints": true
+    },
+    {
+      "idx": 71,
+      "version": "7",
+      "when": 1789472500000,
+      "tag": "0071_toonies_legacy_moq_reconciliation",
+      "breakpoints": true
+    },
+    {
+      "idx": 72,
+      "version": "7",
+      "when": 1789473500000,
+      "tag": "0072_order_shipping_snapshots",
+      "breakpoints": true
+    },
+    {
+      "idx": 73,
+      "version": "7",
+      "when": 1789473600000,
+      "tag": "0073_toonies_shipping_rbac_audit",
+      "breakpoints": true
+    },
+    {
+      "idx": 74,
+      "version": "7",
+      "when": 1789473700000,
+      "tag": "0074_shipping_destinations_and_snapshot_immutability",
+      "breakpoints": true
+    },
+    {
+      "idx": 75,
+      "version": "7",
+      "when": 1789473800000,
+      "tag": "0075_supplier_shipping_constraint_alignment",
+      "breakpoints": true
+    },
+    {
+      "idx": 76,
+      "version": "7",
+      "when": 1789573400000,
+      "tag": "0076_toonies_pricing_safety",
+      "breakpoints": true
+    },
+    {
+      "idx": 77,
+      "version": "7",
+      "when": 1789574700000,
+      "tag": "0077_toonies_price_review_policy_snapshot",
+      "breakpoints": true
+    },
+    {
+      "idx": 78,
+      "version": "7",
+      "when": 1789575600000,
+      "tag": "0078_invalidated_payment_recovery",
+      "breakpoints": true
+    },
+    {
+      "idx": 79,
+      "version": "7",
+      "when": 1789577119091,
+      "tag": "0079_toonies_price_review_provenance",
+      "breakpoints": true
+    },
+    {
+      "idx": 80,
+      "version": "7",
+      "when": 1789589000000,
+      "tag": "0080_price_review_pending_scope_indexes",
+      "breakpoints": true
+    },
+    {
+      "idx": 81,
+      "version": "7",
+      "when": 1789594000000,
+      "tag": "0081_product_media_primary_integrity",
+      "breakpoints": true
+    },
+    {
+      "idx": 82,
+      "version": "7",
+      "when": 1789595200000,
+      "tag": "0082_stage_product_media_primary_cleanup",
+      "breakpoints": true
+    },
+    {
+      "idx": 83,
+      "version": "7",
+      "when": 1789596600000,
+      "tag": "0083_restore_product_media_primary_indexes",
+      "breakpoints": true
+    },
+    {
+      "idx": 84,
+      "version": "7",
+      "when": 1789597500000,
+      "tag": "0084_checkout_tax_integrity",
+      "breakpoints": true
+    },
+    {
+      "idx": 85,
+      "version": "7",
+      "when": 1789600000000,
+      "tag": "0085_toonies_procurement_attempts",
+      "breakpoints": true
+    },
+    {
+      "idx": 86,
+      "version": "7",
+      "when": 1789602000000,
+      "tag": "0086_paid_order_toonies_procurement",
+      "breakpoints": true
+    },
+    {
+      "idx": 87,
+      "version": "7",
+      "when": 1789603000000,
+      "tag": "0087_toonies_snapshot_integrity",
+      "breakpoints": true
+    },
+    {
+      "idx": 88,
+      "version": "7",
+      "when": 1789604000000,
+      "tag": "0088_toonies_procurement_state_constraint_visibility",
+      "breakpoints": true
+    },
+    {
+      "idx": 89,
+      "version": "7",
+      "when": 1789668000000,
+      "tag": "0089_toonies_stage3_settlements",
+      "breakpoints": true
+    },
+    {
+      "idx": 90,
+      "version": "7",
+      "when": 1789669000000,
+      "tag": "0090_toonies_stage3_manual_review_invariant",
+      "breakpoints": true
+    },
+    {
+      "idx": 91,
+      "version": "7",
+      "when": 1789669100000,
+      "tag": "0091_toonies_stage3_terminal_transition",
+      "breakpoints": true
+    },
+    {
+      "idx": 92,
+      "version": "7",
+      "when": 1789669200000,
+      "tag": "0092_toonies_settlement_reconciliation_immutability",
+      "breakpoints": true
+    },
+    {
+      "idx": 93,
+      "version": "7",
+      "when": 1789670300000,
+      "tag": "0093_financial_operation_reservations",
+      "breakpoints": true
+    },
+    {
+      "idx": 94,
+      "version": "7",
+      "when": 1789670400000,
+      "tag": "0094_financial_operation_reservation_order_cascade",
+      "breakpoints": true
+    },
+    {
+      "idx": 95,
+      "version": "7",
+      "when": 1789670500000,
+      "tag": "0095_financial_operation_transmission_phase",
+      "breakpoints": true
+    },
+    {
+      "idx": 96,
+      "version": "7",
+      "when": 1789749500000,
+      "tag": "0096_supplier_failure_reversal",
+      "breakpoints": true
+    }
+  ]
+}
